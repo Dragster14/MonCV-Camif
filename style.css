@@ -13,7 +13,16 @@ article img {
     border-radius: 25% 10%;
 }
 
-@media (max-width: 768px) {
+.fa-camera, .fa-xbox, .fa-plane {
+    border: solid 2px black;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 3em;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
 
     .footer-media {
         text-align: center;
