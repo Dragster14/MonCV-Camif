@@ -1,0 +1,14 @@
+body {
+    height: 2000px;
+}
+
+.img-mt {
+    margin-top: 150px;
+    width: 75%;
+    height: 75%;
+}
+
+section img {
+    border: solid 2px black;
+    border-radius: 25% 10%;
+}
