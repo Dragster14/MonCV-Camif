@@ -3,12 +3,9 @@
     bleu foncé  #079DD9
 */
 
-body {
+html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.img-mt {
-    margin-top: 150px;
+    scroll-behavior: smooth;
 }
 
 article img {
@@ -16,9 +13,15 @@ article img {
     border-radius: 25% 10%;
 }
 
-@media (max-width: 260px) {
+@media (max-width: 768px) {
 
-    .img-mt {
-        margin-top: 200px;
+    .footer-media {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer p, .footer-email {
+        display: none;
     }
 }
