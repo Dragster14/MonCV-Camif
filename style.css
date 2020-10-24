@@ -13,6 +13,10 @@ article img {
     border-radius: 25% 10%;
 }
 
+p {
+    line-height: 1.8;
+}
+
 .fa-camera, .fa-xbox, .fa-plane {
     border: solid 2px black;
     border-radius: 50%;
@@ -20,17 +24,5 @@ article img {
     font-size: 3em;
     margin-bottom: 50px;
     max-width: 100%;
-}
-
-@media (max-width: 767px) {
-
-    .footer-media {
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    footer p, .footer-email {
-        display: none;
-    }
+    height: auto;
 }
