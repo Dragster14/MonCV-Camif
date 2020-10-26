@@ -1,22 +1,21 @@
-/*  jaune       #F2B705
-    bleu        #07C4D9
-    bleu foncé  #079DD9
-*/
-
+/* ---- police + scroll de la page ---- */
 html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
 
+/* ---- bordure de la photo ---- */
 article img {
     border: solid 2px black;
     border-radius: 25% 10%;
 }
 
+/* ---- espace interligne ---- */
 p {
     line-height: 1.8;
 }
 
+/* ---- taille + bordure des icônes loisirs ---- */
 .fa-camera, .fa-xbox, .fa-plane {
     border: solid 2px black;
     border-radius: 50%;
@@ -25,4 +24,9 @@ p {
     margin-bottom: 50px;
     max-width: 100%;
     height: auto;
+}
+
+/* ---- marge bas lettre motivation ---- */
+.marge-bas {
+    margin-bottom: 110px;
 }
